@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>All Products | Doorstep Delivery</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="navbar">
+		<div class="logo">
+		<a href="index.html"><img src="images/logo.png" width="145px"></a>
+		</div>
+		<nav>
+			<ul id= MenuItems>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="products.html"> Products </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="account.html"> Account </a></li>
+            </ul>
+		</nav>
+		<a href="cart.html"><img src="images/cart.png" width="38px"></a>
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+</div>
+
+
+<!------- featured Products ------->
+	<div class="small-container">
+		<div class="row row-2">
+	        <h2>Featured Products </h2>
+	        <select>
+	        	<option> Default Sorting </option>
+	        	<option> Sort by Price </option>
+	        	<option> Sort by Name </option>
+	        	<option> Sort by Rating </option>
+	        </select>
+
+        </div>
+	<div class="row">
+		<div class="col-4">
+			<br><br><br><br>
+		<img src="images/gmain.png">
+		<a href="product-details.html"><h4><br><br>Doorstep Grocery Combo</h4></a>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹7000</p>
+	</div>
+			<div class="col-4">
+				<br><br><br>
+		<img src="images/vb.png" width="500px">
+		<h4>Doorstep Vegetable Basket</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹3000</p>
+	</div>
+			<div class="col-4">
+		<img src="images/fb.png">
+		<h4>Doorstep Fruit Basket</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹2500</p>
+	</div>
+	</div>
+
+<!------- c1 -------->
+	<h2> Fresh Vegetables </h2>
+	<div class="row">
+		<div class="col-4">
+		<img src="images/spring-onion.png" style="width:250px; height: 200px">
+		<h4>Spring Onion</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹150</p>
+	</div>
+		<div class="col-4">
+		<img src="images/ginger.png" style="width:250px">
+		<h4>Ginger</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹30</p>
+	</div>
+		<div class="col-4">
+		<img src="images/garlic.png" style="width:250px; height: 210px">
+		<h4> Garlic </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹30</p>
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col-4">
+		<img src="images/coriander.png" style="width:250px; height: 200px">
+		<h4>Coriander</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹20</p>
+	</div>
+		<div class="col-4">
+		<img src="images/brinjal.png" style="width:250px; height: 200px">
+		<h4>Brinjal</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹120</p>
+	</div>
+		<div class="col-4">
+		<img src="images/cabbage.png" style="width:250px; height: 210px">
+		<h4> Cabbage </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹150</p>
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col-4">
+		<img src="images/broccoli.png" style="width:250px; height: 200px">
+		<h4>Broccoli</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹200</p>
+	</div>
+		<div class="col-4">
+		<img src="images/cauliflower.png" style="width:250px; height: 200px">
+		<h4>Cauliflower</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹100</p>
+	</div>
+		<div class="col-4">
+		<img src="images/lemon.png" style="width:250px; height: 210px">
+		<h4> Lemon </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹70</p>
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col-4">
+		<img src="images/peas.png" style="width:250px; height: 200px">
+		<h4>Peas</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹100</p>
+	</div>
+		<div class="col-4">
+		<img src="images/radish.png" style="width:250px; height: 200px">
+		<h4>Radish</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹70</p>
+	</div>
+		<div class="col-4">
+		<img src="images/methi.png" style="width:250px; height: 210px">
+		<h4> Methi </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹40</p>
+	    </div>
+	</div>
+
+
+<div class="row">
+	<div class="col-4">
+		<img src="images/cucumber.png" style="width:250px; height: 200px">
+		<h4>Cucumber</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹70</p>
+	</div>
+		<div class="col-4">
+		<img src="images/beetroot.png" style="width:250px; height: 200px">
+		<h4>Beetroot</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹200</p>
+	</div>
+		<div class="col-4">
+		<img src="images/spinach.png" style="width:250px; height: 210px">
+		<h4> Spinach </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹50</p>
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col-4">
+		<img src="images/tomato.png" style="width:250px; height: 200px">
+		<h4>Tomato</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹150</p>
+	</div>
+		<div class="col-4">
+		<img src="images/Capsicum.png" style="width:250px; height: 200px">
+		<h4>Capsicum</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹50</p>
+	</div>
+		<div class="col-4">
+		<img src="images/carrot.png" style="width:250px; height: 210px">
+		<h4> Carrot </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹70</p>
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col-4">
+		<img src="images/potato.png" style="width:250px; height: 200px">
+		<h4>Potato</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹100</p>
+	</div>
+		<div class="col-4">
+		<img src="images/onion.png" style="width:250px; height: 200px">
+		<h4>Onion</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+        </div>
+		<p>₹100</p>
+	</div>
+		<div class="col-4">
+		<img src="images/mint.png" style="width:250px; height: 210px">
+		<h4> Mint </h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+        </div>
+		<p>₹25</p>
+	    </div>
+	</div>
+<div class="page-btn">
+	<span><a href="products.html">1</a></span>
+	<span><a href="c2.html">2</a></span>
+	<span><a href="c3.html">3</a></span>
+	<span><a href="c4.html">4</a></span>
+	<span><a href="c5.html">5</a></span>
+	<span><a href="c6.html">6</a></span>
+	<span>&#8594;</span>
+</div>
+</div>
+<!-------footer------>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Android and ios mobile phone.</p>
+				<div class="app-logo">
+					<img src="images/ps.png">
+					<img src="images/as.png">
+				</div>
+			</div>
+			<!--<div class="footer-col-2">
+				<img src="images/logo.png" width="100px">
+				<p>Our purpose is to systainably make the pleasure & benefits of sports accessible to the many.</p>
+			</div>-->
+			<div class="footer-col-3">
+				<h3>Useful links</h3>		
+			<ul>
+				<li> Coupons </li>
+				<li> FAQs </li>
+				<li> Return Policy </li>
+				<li> Privacy Policy </li>
+				<li> Terms and condition </li>
+			</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>		
+			<ul>
+				<li>Facebook </li>
+				<li> Instagram </li>
+				<li> Twitter </li>
+				<li> Pinterest </li>
+				<li> Linkedin </li>
+			</ul>
+			</div>
+		</div>
+		<hr><p class="copyright"> Copyright 2021 - Anisha Pandit, Anushka Lalwani, Arafat Qureshi</p>
+	</div>
+</div>
+<!------ js for toggle menue-------->
+<script>
+	var MenuItems=document.getElementById("MenuItems");
+	MenuItems.style.maxHeight="0px";
+	function menutoggle()
+	{
+		if(	MenuItems.style.maxHeight=="0px")
+			{	
+				MenuItems.style.maxHeight="200px";
+            }
+            else{
+            		MenuItems.style.maxHeight="0px";
+            }
+	}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | Doorstep Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+        <a href="index.html"><img src="images/logo.png" width="145px"></a>
+        </div>
+        <nav>
+            <ul id= MenuItems>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="products.html"> Products </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="account.html"> Account </a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="38px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+<!-------about us page------>
+<div class="about-us">
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/g1.png" width="100%" style="padding-left: 50px">
+                <img src="images/g2.png" width="100%" style="padding-left: 50px">
+            </div>
+            <div class="col-2">
+                 <div class="about">
+               <h2>About us</h2>
+    <p>Doorstep Delivery is the leading hypermarket and focuses to provide its customers with fresh produce every time they visit the store, be it the physical or online grocery store. Doorstep Delivery has 12,500+ stores in 44 countries across 4 continents. In India Doorstep Delivery currently has 25 stores across 9 cities including — Bangalore, Mangalore, Shimoga, Chennai, Coimbatore, Hyderabad, New Delhi, Gurugram and Ghaziabad. Apart from physical stores, Doorstep also has an online presence. It is great to get all your groceries and daily essentials delivered right to your doorstep? Isn’t it?</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-------footer------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/ps.png">
+                    <img src="images/as.png">
+                </div>
+            </div>
+            <!--<div class="footer-col-2">
+                <img src="images/logo.png" width="100px">
+                <p>Our purpose is to systainably make the pleasure & benefits of sports accessible to the many.</p>
+            </div>-->
+            <div class="footer-col-3">
+                <h3>Useful links</h3>       
+            <ul>
+                <li> Coupons </li>
+                <li> FAQs </li>
+                <li> Return Policy </li>
+                <li> Privacy Policy </li>
+                <li> Terms and condition </li>
+            </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>      
+            <ul>
+                <li>Facebook </li>
+                <li> Instagram </li>
+                <li> Twitter </li>
+                <li> Pinterest </li>
+                <li> Linkedin </li>
+            </ul>
+            </div>
+        </div>
+        <hr><p class="copyright"> Copyright 2021 - Anisha Pandit, Anushka Lalwani, Arafat Qureshi</p>
+    </div>
+</div>
+<!------ js for toggle menue-------->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle()
+    {
+        if( MenuItems.style.maxHeight=="0px")
+            {   
+                MenuItems.style.maxHeight="200px";
+            }
+            else{
+                    MenuItems.style.maxHeight="0px";
+            }
+    }
+</script>
+
